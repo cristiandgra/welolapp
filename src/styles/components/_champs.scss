@@ -7,6 +7,8 @@
   display: -webkit-box;
   box-sizing: content-box;
   width: auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .champlist ul {
   display: grid;
