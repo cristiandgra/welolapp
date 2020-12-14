@@ -1,0 +1,24 @@
+.champcontainer {
+  width: 100%;
+  margin: auto;
+}
+
+.champlist {
+  display: -webkit-box;
+  box-sizing: content-box;
+  width: auto;
+}
+.champlist ul {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 25px;
+  margin: 50px 0;
+}
+
+.champscreen {
+  padding: 30px 100px;
+}
+
+.search-bar {
+  width: auto;
+}
