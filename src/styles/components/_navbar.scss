@@ -10,10 +10,10 @@ ul {
 /* Navigation */
 .nav-main {
   width: 100%;
-  margin: auto;
   font-size: 21px;
   display: flex;
-  justify-content: space-between;
+  left: -50px;
+  justify-content: center;
   align-items: center;
   height: 60px;
   padding: 20px 60px;
@@ -22,30 +22,32 @@ ul {
 
 .nav-brand {
   width: 50px;
-  margin-left: 50px;
+  display: flex;
 }
 
 /* NAV LEFT */
 .nav-main ul {
   display: flex;
+  width: 1024;
   :hover {
     color: #f7c948;
   }
 }
 
 .nav-main ul li {
-  padding: 30px;
+  padding: 50px;
 }
 
 .nav-main ul li a {
-  padding: 2px;
+  padding: 30px;
 }
 
 .nav-main ul li a:hover {
-  border-bottom: px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .nav-main ul.nav-menu {
   flex: 1;
-  margin-left: 20px;
+  display: flex;
+  justify-content: center;
 }

@@ -1,6 +1,8 @@
 .champcontainer {
   width: 100%;
   margin: auto;
+  justify-content: center;
+  display: flex;
 }
 
 .champlist {
@@ -8,7 +10,9 @@
   box-sizing: content-box;
   width: auto;
   max-width: 1600px;
-  margin: 0 auto;
+  align-items: center;
+  position: relative;
+  margin: auto;
 }
 .champlist ul {
   display: grid;
@@ -17,10 +21,58 @@
   margin: 50px 0;
 }
 
-.champscreen {
+.champscreen h1 {
   padding: 30px 100px;
+  justify-content: center;
+  display: flex;
 }
 
-.search-bar {
-  width: auto;
+.champscreen .site-layout-background-right .search .input {
+  padding-left: 1rem;
+  width: 150px;
+  height: 30px;
+  border: none !important;
+  -webkit-transition: 0.5s width;
+  transition: 0.5s width;
+  color: #4d4f5c;
+}
+
+.champscreen .search {
+  justify-content: center;
+  display: flex;
+}
+.search i {
+  font-size: 25px;
+  padding: 2px 5px;
+  color: rgb(6, 209, 192);
+  cursor: pointer;
+}
+.champscreen .site-layout-background-right .search .input:focus {
+  padding-left: 1rem;
+  width: 200px !important;
+  border: none !important;
+}
+.champscreen .site-layout-background-right .search span {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #3b113d;
+  margin: 10px;
+}
+.champscreen .site-layout-background-right .search input {
+  padding-left: 1rem;
+  width: 150px;
+  height: 30px;
+  border: none !important;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  color: #4d4f5c;
+}
+
+.champscreen .site-layout-background-right .search input:focus {
+  padding-left: 1rem;
+  width: 200px;
+  border: none !important;
+}
+.champscreen .site-layout-background-right .search button {
+  padding: 2px;
 }

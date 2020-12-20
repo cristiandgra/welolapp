@@ -1,6 +1,9 @@
 .homevideo {
-  padding: 40px 40px;
   align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 .container {
   width: 90%;
@@ -12,16 +15,23 @@
   color: #f7c948;
   margin-left: 50px;
   margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .hometext p {
   font-size: 20pt;
   color: rgb(255, 255, 255);
   margin-left: 60px;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 .btn-pff {
   background-color: white;
   border: none;
+  border-radius: 15px;
   color: black;
   padding: 16px 50px;
   text-align: center;
@@ -30,7 +40,11 @@
   font-size: 20px;
   font-style: oblique;
   font-weight: 500;
-  margin-left: 490px;
+  position: relative;
+  top: 80px;
+  margin: 0 42%;
+  width: 270px;
+  justify-content: center;
   transition-duration: 0.2s;
   cursor: pointer;
   &:hover {
@@ -45,13 +59,19 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  position: relative;
+  top: 100px;
   margin: 50px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .news-cards img {
   width: 100%;
   height: 200px;
   border: 1px white solid;
+  display: flex;
+  justify-content: center;
 }
 
 .news-cards h3 {

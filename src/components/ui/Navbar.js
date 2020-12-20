@@ -5,12 +5,14 @@ export const Navbar = () => {
   return (
     <div className="navcontain">
       <nav className="nav-main">
-        <img
-          src="https://i.imgur.com/CV4R2CT.png"
-          alt=" LOGO"
-          className="nav-brand"
-        />
         <ul className="nav-menu show">
+          <li>
+            <img
+              src="https://i.imgur.com/CV4R2CT.png"
+              alt=" LOGO"
+              className="nav-brand"
+            />
+          </li>
           <li>
             <Link to="/">Home</Link>
           </li>
